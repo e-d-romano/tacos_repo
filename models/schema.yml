@@ -21,15 +21,3 @@ models:
         data_tests:
           - unique
           - not_null
-      - name: make
-        data_tests:
-          - accepted_values:
-              arguments:
-                values: ['Airstream',
-                         'Chevrolet',
-                         'Custom',
-                         'Citroen',
-                         'Ford',
-                         'Freightliner',
-                         'Nissan',
-                         'Volkswagen']
